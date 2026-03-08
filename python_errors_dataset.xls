@@ -1,0 +1,26 @@
+traceback,root_cause,fix,clean_traceback
+TypeError unsupported operand type for + int and str,Trying to add integer and string,Convert string to integer before addition,typeerror unsupported operand type for int and str
+IndexError list index out of range,Accessing list index that does not exist,Check list length before accessing,indexerror list index out of range
+KeyError name,Dictionary key missing,Check if key exists before accessing,keyerror name
+ValueError invalid literal for int,Invalid conversion to integer,Ensure value contains numbers,valueerror invalid literal for int
+NameError variable x is not defined,Variable used before definition,Define variable before using,nameerror variable x is not defined
+AttributeError list object has no attribute split,Using string method on list object,Convert list element to string,attributeerror list object has no attribute split
+ZeroDivisionError division by zero,Dividing a number by zero,Ensure denominator is not zero,zerodivisionerror division by zero
+ModuleNotFoundError no module named numpy,Library not installed,Install library using pip,modulenotfounderror no module named numpy
+FileNotFoundError no such file or directory,File path incorrect,Check correct file path,filenotfounderror no such file or directory
+IndentationError unexpected indent,Incorrect indentation in code,Fix indentation spacing,indentationerror unexpected indent
+TypeError unsupported operand type for minus int and str,Trying to subtract string from integer,Convert string to integer before subtraction,typeerror unsupported operand type for minus int and str
+IndexError list assignment index out of range,Assigning to an index that does not exist,Ensure index exists before assignment,indexerror list assignment index out of range
+KeyError user,Dictionary key user missing,Check if key exists in dictionary,keyerror user
+ValueError could not convert string to float,Invalid conversion to float,Ensure value is numeric,valueerror could not convert string to float
+NameError variable y is not defined,Variable y used before definition,Define variable before using,nameerror variable y is not defined
+AttributeError dict object has no attribute append,Using list method on dictionary,Use correct dictionary method,attributeerror dict object has no attribute append
+ZeroDivisionError float division by zero,Dividing floating number by zero,Ensure denominator is not zero,zerodivisionerror float division by zero
+ModuleNotFoundError no module named pandas,Pandas library not installed,Install pandas using pip,modulenotfounderror no module named pandas
+FileNotFoundError config file not found,Configuration file path incorrect,Check configuration file path,filenotfounderror config file not found
+IndentationError expected an indented block,Missing indentation after statement,Add indentation after block statements,indentationerror expected an indented block
+TypeError object is not iterable,Looping over non iterable object,Ensure object is iterable,typeerror object is not iterable
+ValueError math domain error,Invalid mathematical input,Check mathematical input values,valueerror math domain error
+KeyError id,Dictionary key id missing,Check if key id exists,keyerror id
+AttributeError tuple object has no attribute append,Using list method on tuple,Use correct tuple operations,attributeerror tuple object has no attribute append
+IndexError tuple index out of range,Accessing tuple index that does not exist,Check tuple length before accessing,indexerror tuple index out of range
